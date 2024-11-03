@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded",()=>{
 const filterbtn=document.querySelectorAll(".btns button");
 const gallary=document.querySelectorAll(".gallary .item");
 
@@ -16,4 +17,5 @@ filterbtn.forEach((buttons)=>{
             }
           })
     })
+})
 })
